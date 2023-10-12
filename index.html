@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Published</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.44/esri/css/esri.css">
+    <script src="https://js.arcgis.com/3.44/"></script>
+</head>
+
+<body>
+
+    <div id="map"></div>
+    <div id="controls">
+        <button id="Add">Add</button>
+        <button id="Update">Update</button>
+        <button id="Delete">Delete</button>
+    </div>
+
+    <div class="enableDataEntry">
+        <label for="Name">Input School Name</label>
+        <input type="text" id="Name">
+        <br>
+        <label for="City">Input School City</label>
+        <input type="text" id="City">
+        <br>
+
+        <label for="Grade">Input School Grade</label>
+        <input type="text" id="Grade">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
